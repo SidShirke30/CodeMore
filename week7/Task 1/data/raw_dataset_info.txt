@@ -1,0 +1,26 @@
+Dataset: Wine Quality - Red
+Repository: UCI Machine Learning Repository
+Original source:
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+
+Dataset information:
+- 1,599 red-wine observations in the original dataset
+- 11 physicochemical input variables
+- Target: quality
+- Delimiter: semicolon (;)
+- Regression formulation used in this project
+
+Input variables:
+fixed acidity
+volatile acidity
+citric acid
+residual sugar
+chlorides
+free sulfur dioxide
+total sulfur dioxide
+density
+pH
+sulphates
+alcohol
+
+The notebook downloads the dataset from UCI when data/winequality-red.csv is absent.
