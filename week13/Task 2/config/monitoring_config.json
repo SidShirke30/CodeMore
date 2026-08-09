@@ -1,0 +1,5 @@
+{
+  "accuracy_min": 0.85,
+  "latency_max_ms": 250,
+  "psi_max": 0.20
+}
