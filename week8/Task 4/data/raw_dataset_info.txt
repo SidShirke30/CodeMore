@@ -1,0 +1,8 @@
+Dataset: Breast Cancer Wisconsin (Diagnostic)
+Source: sklearn.datasets.load_breast_cancer
+Samples: 569
+Features: 30 numeric features
+Task: Binary classification
+Target: malignant (0), benign (1)
+Missing values: none in the packaged dataset
+External download: not required
