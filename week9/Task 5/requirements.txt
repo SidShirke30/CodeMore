@@ -1,0 +1,2 @@
+# No runtime dependencies are required to read the proposal.
+# Future implementation dependencies will be added after the dataset and model are finalized.
