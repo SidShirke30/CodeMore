@@ -1,0 +1,7 @@
+Dataset: Synthetic hiring classification dataset
+Purpose: Demonstrate bias detection and fairness-aware ML.
+Protected attribute: group (A/B)
+Features: experience_years, education_score, interview_score, group
+Target: hired
+
+The data are intentionally generated with a group-related outcome disparity for educational analysis. It is synthetic and must not be used for real employment decisions.
