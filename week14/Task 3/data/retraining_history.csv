@@ -1,0 +1,2 @@
+timestamp,triggered,reasons,current_accuracy,candidate_accuracy,drift_score,promoted
+2026-08-13T10:00:00+00:00,True,accuracy_below_threshold,0.76,0.84,0.42,True

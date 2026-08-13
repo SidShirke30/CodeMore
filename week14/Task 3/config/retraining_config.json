@@ -1,0 +1,6 @@
+{
+  "accuracy_trigger": 0.80,
+  "drift_trigger": 0.50,
+  "minimum_improvement": 0.01,
+  "scheduled_retraining_days": 30
+}
