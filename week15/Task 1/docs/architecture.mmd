@@ -1,0 +1,17 @@
+flowchart TD
+    A[Training Data] --> B[Data Validation]
+    B --> C[Model Training]
+    C --> D[Model Evaluation]
+    D -->|Pass| E[Git + Model Versioning]
+    D -->|Fail| C
+    E --> F[CI/CD Pipeline]
+    F --> G[Automated Tests]
+    G -->|Pass| H[Docker Build]
+    G -->|Fail| F
+    H --> I[Deployment]
+    I --> J[Production Model API]
+    J --> K[Monitoring and Logging]
+    K --> L{Performance / Drift Alert}
+    L -->|No| J
+    L -->|Yes| M[Retrain / Rollback]
+    M --> C
