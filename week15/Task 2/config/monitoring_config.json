@@ -1,0 +1,7 @@
+{
+  "min_accuracy": 0.90,
+  "max_latency_ms": 250,
+  "max_cpu_percent": 85,
+  "max_memory_percent": 85,
+  "accuracy_drop": 0.05
+}
