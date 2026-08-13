@@ -1,0 +1,8 @@
+{
+  "min_accuracy": 0.90,
+  "max_error_rate": 0.10,
+  "min_new_samples": 100,
+  "drift_score": 0.20,
+  "min_f1_improvement": 0.01,
+  "scheduled_frequency": "weekly"
+}
